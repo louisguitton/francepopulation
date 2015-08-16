@@ -18,7 +18,7 @@
                             var div = $('<div />').addClass('mapnail');
                             $('#map').append(div);
 
-                            var map = kartograph.map(div, w * 0.32, w/3);
+                            var map = kartograph.map(div, w, w);
                             // color function
 
                             map.setMap(svg);
