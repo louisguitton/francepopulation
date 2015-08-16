@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Choropleth</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="css/k.css" type="text/css" />
+
+
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="js/raphael-2.1.0.min.js"></script>
+    <script type="text/javascript" src="js/kartograph.js"></script>
+
+</head>
+<body>
+
+    <link rel="stylesheet" type="text/css" href="css/jquery.qtip.css">
+    <style type="text/css">
+        .mapnail {
+            display: inline-block;
+            width: 33%;
+        }
+    </style>
+    <script type="text/javascript" src="js/jquery.qtip.min.js"></script>
+
+    <script type="text/javascript" src="js/chroma.min.js"></script>
+
+    <script type="text/javascript" src="js/map.js"></script>
+
+
+    <h1>Population Extremes in France</h1>
+    <p>I like dataviz and D3.js, and recently I got inspired by 2 pieces of work aroun population extremes <a href="http://dadaviz.com/s/population-extremes">in the US</a> and <a href="https://twitter.com/randal_olson/status/632550560252719104/photo/1">in Sweden</a>.</p> 
+    <p>I decided to try to do my own and as I'm french, I produced the following dataviz.</p>
+
+    <p style=
+    "font-family: Helvetica, sans-serif; font-size: 12px; line-height: 14px; color: #333;">
+    <b>Find me on Twitter →</b>
+    <span id="twitterIcon" style="display: inline;"><a href=
+        "https://twitter.com/LaGuitteMH"><img height="20px" src=
+        "https://dl.dropboxusercontent.com/u/20758534/icons/twitter_circle_color-20.png"
+        width="20px"></a></span> 
+    </p>
+
+    <h3 style="color:#CC0000">Half of the french population</h3>
+    <p>32,592,560 residents in 23 departments.</p>
+
+    <h3 style="color:#FFFF66">Half of the french population</h3>
+    <p>33,869,227 residents in 78 departments.</p>
+
+
+    <div id="map">&nbsp;</div>
+
+    <p>Made with <a href="http://kartograph.org/">Kartograph</a> for the dataviz, <a href="http://colorbrewer2.org">ColorBrewer</a> for the color (They are included in <a href="https://github.com/gka/chroma.js">chroma.js</a>).</p>
+    <p>The data comes from Insee in 2012.</p>
+
+</body>
+</html>
