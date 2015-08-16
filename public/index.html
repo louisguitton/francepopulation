@@ -31,33 +31,44 @@
 
     <script type="text/javascript" src="js/map.js"></script>
 
+    <div class="container">
+        <h1>Population Extremes in France</h1>
+        <div class="row">
+            <div class="col-md-2">
+                <p>I like dataviz and D3.js, and recently I got inspired by 2 pieces of work around population extremes <a href="http://dadaviz.com/s/population-extremes">in the US</a> and <a href="https://twitter.com/randal_olson/status/632550560252719104/photo/1">in Sweden</a>.</p> 
+                <p>I decided to try to do my own and as I'm french, I produced the following dataviz.</p>
+            </div>
+            <div class="col-md-2">
 
-    <h1>Population Extremes in France</h1>
-    <p>I like dataviz and D3.js, and recently I got inspired by 2 pieces of work around population extremes <a href="http://dadaviz.com/s/population-extremes">in the US</a> and <a href="https://twitter.com/randal_olson/status/632550560252719104/photo/1">in Sweden</a>.</p> 
-    <p>I decided to try to do my own and as I'm french, I produced the following dataviz.</p>
+                <p style=
+                "font-family: Helvetica, sans-serif; font-size: 12px; line-height: 14px; color: #333;">
+                <b>Find me on Twitter →</b>
+                <span id="twitterIcon" style="display: inline;"><a href=
+                    "https://twitter.com/LaGuitteMH"><img height="20px" src=
+                    "https://dl.dropboxusercontent.com/u/20758534/icons/twitter_circle_color-20.png"
+                    width="20px"></a></span> 
+                </p>
+            </div>
+        </div>
 
-    <p style=
-    "font-family: Helvetica, sans-serif; font-size: 12px; line-height: 14px; color: #333;">
-    <b>Find me on Twitter →</b>
-    <span id="twitterIcon" style="display: inline;"><a href=
-        "https://twitter.com/LaGuitteMH"><img height="20px" src=
-        "https://dl.dropboxusercontent.com/u/20758534/icons/twitter_circle_color-20.png"
-        width="20px"></a></span> 
-    </p>
+        <div class="row">
+            <div class="col-md-2">
+                <h3 style="color:#CC0000">Half of the french population</h3>
+                <p>32,592,560 residents in 23 departments.</p>
+                <p><b>49.8% of total population</b></p>
+            </div>
+            <div class="col-md-2">
 
-    <h3 style="color:#CC0000">Half of the french population</h3>
-    <p>32,592,560 residents in 23 departments.</p>
-    <p><b>49.8% of total population</b></p>
+                <h3 style="color:#FFFF00">Half of the french population</h3>
+                <p>32,861,326 residents in 78 departments.</p>
+                <p><b>50.2% of total population</b></p>
+            </div>
+        </div>
 
-    <h3 style="color:#FFFF00">Half of the french population</h3>
-    <p>32,861,326 residents in 78 departments.</p>
-    <p><b>50.2% of total population</b></p>
+        <div id="map" style="width:100%">&nbsp;</div>
 
-
-    <div id="map" style="width:100%">&nbsp;</div>
-
-    <p>Made with <a href="http://kartograph.org/">Kartograph</a> for the dataviz, a D3 like.</p>
-    <p>The data comes from <a href="https://fr.wikipedia.org/wiki/Liste_des_d%C3%A9partements_fran%C3%A7ais_class%C3%A9s_par_population_et_superficie">Wikipedia, year 2012</a>.</p>
-
+        <p>Made with <a href="http://kartograph.org/">Kartograph</a> for the dataviz, a D3 like.</p>
+        <p>The data comes from <a href="https://fr.wikipedia.org/wiki/Liste_des_d%C3%A9partements_fran%C3%A7ais_class%C3%A9s_par_population_et_superficie">Wikipedia, year 2012</a>.</p>
+    </div>
 </body>
 </html>
